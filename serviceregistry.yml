@@ -1,0 +1,10 @@
+server:
+ port: 8742
+spring:
+    
+eureka:
+ client: 
+  registerWithEureka: false
+  fetchRegistry: false           
+  server:
+    waitTimeInMsWhenSyncEmpty: 5                          
